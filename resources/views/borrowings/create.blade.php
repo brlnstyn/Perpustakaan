@@ -23,7 +23,7 @@
         </div>
     @endif
         
-    <form action="{{ route('borrowings.store') }}" method="POST" enctype="multipart/form-data">
+    <form action="{{ route('borrowings.store') }}" method="POST" enctype="multipart/form-data" autocomplete="off">
         @csrf
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
